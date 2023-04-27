@@ -123,4 +123,45 @@
       </div>
     </div>
   </body>
+    <!--------------footer--------------------------------------------------------->
+<footer class="footer">
+    <p class="footer-text">© 2019 Waqf-e-Nau. All Rights Reserved.</p>
+    <nav class="footer-links">
+      <a href="https://twitter.com/WaqfeNauIntl">Twitter</a>
+      <a href="https://www.youtube.com/channel/UCz_l-TwxnSRKGK4P2nI-hyQ">YouTube</a>
+      <a href="https://www.waqfenauintl.org/contact-us/">Contact us</a>
+    </nav>
+  </footer>
+  
+
+<!----------------toggle menu----------------------------------------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.display = "block";
+    }
+     function hideMenu(){
+        navLinks.style.display = "none";
+     }
+  </script> 
+<!--------------logo change----------->
+<script>
+    window.addEventListener('scroll', function() {
+        var header = document.querySelector('header');
+        var distanceFromTop = header.getBoundingClientRect().top;
+        
+        if (distanceFromTop <= 100) {
+            document.getElementById('header1').style.display = 'block';
+            document.getElementById('header2').style.display = 'none';
+        } else {
+            document.getElementById('header1').style.display = 'none';
+            document.getElementById('header2').style.display = 'block';
+        }
+    });
+    </script>
+      
+      
+  </html>
 </html>
