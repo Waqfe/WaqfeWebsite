@@ -318,11 +318,13 @@ h1 {
   text-align: center;
   font-size: 2.5rem;
   margin-top: 3rem;
+	color: #0198E1;
 }
 
 /* Style the contact information */
 p {
   margin-bottom: 1rem;
+	color: #0BB5FF;
 }
 
 a {
@@ -342,6 +344,7 @@ a {
 h2 {
   font-size: 1.5rem;
   margin-bottom: 2rem;
+	color: #0198E1;
 }
 
 form {
